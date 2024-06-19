@@ -35,4 +35,16 @@ console.log(dbz[0], dbz[1], dbz[2], dbz[3]);
 const [hero1, hero2, hero3, hero4] = dbz;
 console.log(hero1, hero2, hero3, hero4);
 
+const[, , hero3rd= 'not found'] = dbz;
+console.log(hero3rd);
+
+const [hero1st, ...rest] = dbz;
+console.log(hero1st, rest);
+
+const [first, second, ...restHeroes] = dbz;
+console.log(first, second, restHeroes);
+
+const [...restHeros] = dbz;
+console.log(restHeros);
+
 export {};
