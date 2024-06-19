@@ -22,4 +22,29 @@ console.log(buildName('John')); // John 30
 
 console.log(buildName('John', 'Doe')); // John Doe 30
 
+interface Character {
+    name: string;
+    hp: number;
+    showHp: () => void;
+}
+
+function heal(character: Character, healAmount: number): void {
+    character.hp += healAmount;
+    character.showHp();
+}
+
+const character: Character = {
+    name: 'John',
+    hp: 100,
+    showHp() {
+        console.log(`HP: ${this.hp}`);
+    }
+};
+
+heal(character, 10);
+console.log(character.hp); // 110
+
+console.log(character); // { name: 'John', hp: 110, showHp: [Function: showHp] }
+
+
 export{};
