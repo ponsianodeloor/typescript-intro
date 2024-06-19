@@ -3,11 +3,12 @@ import './style.css'
 //import './topics/02-object-interface'
 //import './topics/03-functions'
 //import './topics/04-homework-types'
-import './topics/05-basic-destructuting'
+//import './topics/05-basic-destructuting'
+import './topics/06-fn-destructuring'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Hello TS</h1>
   </div>
 `
 
-console.log('Hello TS');
+//console.log('Hello TS');
