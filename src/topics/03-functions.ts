@@ -30,7 +30,7 @@ interface Character {
 
 function heal(character: Character, healAmount: number): void {
     character.hp += healAmount;
-    character.showHp();
+    //character.showHp();
 }
 
 const character: Character = {
