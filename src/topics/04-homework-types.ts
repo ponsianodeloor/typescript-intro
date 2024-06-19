@@ -1,6 +1,6 @@
 interface Address {
-    calle: string;
-    pais: string;
+    street: string;
+    country: string;
     ciudad: string;
 }
 
@@ -15,12 +15,12 @@ const superHeroe: SuperHero = {
     name: 'Spiderman',
     age: 30,
     address: {
-        calle: 'Main St',
-        pais: 'USA',
+        street: 'Main St',
+        country: 'USA',
         ciudad: 'NY'
     },
     showAddress() {
-        return this.name + ', ' + this.address.ciudad + ', ' + this.address.pais;
+        return this.name + ', ' + this.address.ciudad + ', ' + this.address.country;
     }
 }
 
