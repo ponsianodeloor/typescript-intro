@@ -14,4 +14,8 @@ const myBoolean = whatsMyType(true);
 console.log(myBoolean);
 console.log(typeof myBoolean);
 
+const myArray = whatsMyType([1, 2, 3]);
+console.log(myArray);
+console.log(typeof myArray);
+
 
