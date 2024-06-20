@@ -4,7 +4,8 @@ import './style.css'
 //import './topics/03-functions'
 //import './topics/04-homework-types'
 //import './topics/05-basic-destructuting'
-import './topics/06-fn-destructuring'
+//import './topics/06-fn-destructuring'
+import './topics/07-import-export'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Hello TS</h1>
