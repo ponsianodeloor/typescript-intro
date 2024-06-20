@@ -5,11 +5,13 @@ import './style.css'
 //import './topics/04-homework-types'
 //import './topics/05-basic-destructuting'
 //import './topics/06-fn-destructuring'
-import './topics/07-import-export'
+//import './topics/07-import-export'
+import './topics/08-classes'
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Hello TS</h1>
   </div>
-`
+`;
 
 //console.log('Hello TS');
